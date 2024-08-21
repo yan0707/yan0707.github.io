@@ -1,0 +1,29 @@
+ul{
+    list-style-type: square;
+}
+
+
+li {
+    display: inline;
+    padding: 1rem;
+}
+
+body{
+    background-color:rgb(123, 122, 122);
+    font-family: 'Papyrus', fantasy;
+    text-align: center;
+}
+
+a:hover{
+    color: rgba(205, 21, 21, 0.756);
+}
+
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+h1{
+    color: black;
+    font-family: 'Courier New', monospace;
+}
