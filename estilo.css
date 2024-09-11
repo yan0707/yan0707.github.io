@@ -12,22 +12,43 @@ body{
     background-color:rgb(123, 122, 122);
     font-family: 'Papyrus', fantasy;
     text-align: center;
+    display: inline-block;
+    background-image: url(redfundo.jpg);
+
 }
 
 a:hover{
-    color: rgba(205, 21, 21, 0.756);
+    color: rgba(209, 125, 125, 0.756);
 }
 
 a{
-    color:rgb(0, 0, 0);
+    color:rgb(222, 206, 206);
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 h1{
-    color: black;
+    color: rgb(232, 221, 221);
     font-family: 'Courier New', monospace;
+    font-size: 2rem;
 }
 
-img {
-    border-radius: 25%;
+img{
+    border-radius: 10%;
 }
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+}
+
+.galeria img{
+    width: 300px;
+    border-radius: 20%
+}
+
+p{
+    font-size:1.5rem;
+}
+
