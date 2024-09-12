@@ -12,7 +12,6 @@ body{
     background-color:rgb(123, 122, 122);
     font-family: 'Papyrus', fantasy;
     text-align: center;
-    display: inline-block;
     background-image: url(redfundo.jpg);
 
 }
@@ -52,3 +51,15 @@ p{
     font-size:1.5rem;
 }
 
+.contato img{
+    height: 150px;
+    border-radius: 50px;
+    transition: transform 0.2s ;
+}
+.contato img:hover{
+    transform: scale(1.05); 
+}
+
+img:hover{
+    transform: scale(1.5);
+}
